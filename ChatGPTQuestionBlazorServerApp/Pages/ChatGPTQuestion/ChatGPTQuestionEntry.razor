@@ -1,0 +1,43 @@
+﻿@page "/chatgptquestion/chatgptquestionentry"
+
+@using ChatGPTEngine.Service.Interface
+
+@inject IChatGPTCompletionService ChatGPTCompletionService;
+
+<h1>Chat GPT Question Entry</h1>
+
+<EditForm Model="@questionForChatGPT" OnValidSubmit="@AskChatGPTAQuestionAsync">
+    <table style="width:1024px; margin-bottom: 20px;">
+        <tr>
+            <td style="width:20%;">
+                Enter a question for Chat GPT:
+            </td>
+            <td style="width:80%;">
+                <input type="text" placeholder="Question for Chat GPT" @bind-value="@questionForChatGPT" />
+            </td>
+        </tr>
+    </table>
+
+    <button type="submit">Search</button>
+
+</EditForm>
+
+
+<div style="padding-top: 20px;">
+    @*<p>@answerFromChatGPT</p>*@
+    @if(buttonClicked)
+    {
+        @if(answerReceived)
+        {
+            <p>@answerFromChatGPT</p>
+        }
+        else
+        {
+            <p><em>Loading...</em></p>
+        }
+    }
+</div>
+
+
+
+

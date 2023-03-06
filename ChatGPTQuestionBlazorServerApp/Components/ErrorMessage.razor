@@ -1,0 +1,13 @@
+﻿<div style="color:red;">
+    @if (!string.IsNullOrWhiteSpace(ErrorMessageToDisplay))
+    {
+        <ul>
+            <li>@ErrorMessageToDisplay</li>
+        </ul>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string ErrorMessageToDisplay { get; set; } = string.Empty;
+}

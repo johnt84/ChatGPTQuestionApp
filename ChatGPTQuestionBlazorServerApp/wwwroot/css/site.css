@@ -62,3 +62,28 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.label-question-for-chat-gpt {
+    padding-bottom: 10px;
+}
+
+.div-answer-from-chat-gpt {
+    padding-top: 20px;
+}
+
+.about-table-description-column {
+    width: 500px;
+    padding: 20px;
+}
+
+.about-div-question-for-chat-gpt {
+    padding-bottom: 10px;
+}
+
+.about-div-image-question-for-chat-gpt {
+    padding-bottom: 20px;
+}
+
+.about-image-question-for-chat-gpt {
+    padding-bottom: 10px;
+}

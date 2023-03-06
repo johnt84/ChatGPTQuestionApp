@@ -1,0 +1,29 @@
+﻿@page "/about"
+
+<h1>About</h1>
+
+<div>
+    <p class="about_text">
+        This is a simple Blazor Server app which utlilises the Chat GPT API to perform text completion based on a question from the user.
+        The app is developed with a Blazor Server/.Net 6 GUI frontend and a .Net 6 Chat GPT Question engine class library which communicates with Open API v1 and currently is set up to use the text-davinci-003 model.
+        You can <a href="https://github.com/johnt84/ChatGPTQuestionApp" class="underline font-bold">view the source code here</a>.
+    </p>
+</div>
+
+<h2>Demo</h2>
+
+<div class="about-div-question-for-chat-gpt">
+    Enter a question for Chat GPT to try to answer and press the submit button.
+</div>
+
+<div class="about-div-image-question-for-chat-gpt">
+    <img height="555" width="1024" src="images/AskQuestionForChatGPT.png">
+</div>
+
+<div class="about-image-question-for-chat-gpt">
+    After question answered from Chat GPT then the answer from Chat GPT is displayed.
+</div>
+
+<div>
+    <img height="1000" width="1024" src="images/QuestionAnsweredFromChatGPT.png">
+</div>

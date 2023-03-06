@@ -1,6 +1,6 @@
 # Chat GPT Question Blazor Server App
 
-Simple Blazor Server app which which utilises the Chat GPT API to perform text completion based on a question from the user. The app utilises the Chat GPT Open API v1 to perform text completion based on the question asked.
+Simple Blazor Server app which which utilises the Chat GPT Open API to perform text completion based on a question from the user.
 
 * GUI frontend project developed using Blazor Server/.Net 6
 * Chat GPT Question engine class library using .Net 6

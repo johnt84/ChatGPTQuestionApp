@@ -1,6 +1,6 @@
 # Chat GPT Question Blazor Server App
 
-Simple Blazor Server app which uses image recognition to identify and extract text printed in an image file uploaded by the user. The app utilises the recognise printed text in image function in the Azure Computer Vision Cognitive service to identify and extract printed text from an uploaded image file
+Simple Blazor Server app which which utilises the Chat GPT API to perform text completion based on a question from the user. The app utilises the Chat GPT Open API v1 to perform text completion based on the question asked.
 
 * GUI frontend project developed using Blazor Server/.Net 6
 * Chat GPT Question engine class library using .Net 6
